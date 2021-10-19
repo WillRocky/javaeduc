@@ -1,27 +1,18 @@
 package com.company;
 
-
-import javax.xml.namespace.QName;
 import java.util.Scanner;
 
-public class Main {
-
+public class practica2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Человек по имени");
         String name = scanner.nextLine();
-        System.out.print("живёт в городе");
+        System.out.println(name +" - имя");
         String town = scanner.nextLine();
-        System.out.print("Этому человеку");
+        System.out.println(town + " город");
         String age = scanner.nextLine();
-        System.out.print("лет и он любит заниматься ");
+        System.out.println(age+ " возраст");
         String hobby = scanner.nextLine();
-
-
-
-
-
-
+        System.out.println(hobby + " хобби");
 
 
 
